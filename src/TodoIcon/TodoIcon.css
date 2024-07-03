@@ -1,0 +1,31 @@
+.list-item .item__btn {
+    align-items: center;
+    display: grid;
+    height: 48px;
+    justify-content: center;
+    width: 48px;
+}
+
+.list-item .item__btn .icon-svg {
+    width: 20px;
+    height: 20px;
+}
+
+.btn__delete {
+    position: absolute;
+    right: 0px;
+    top: -24px;
+    cursor: pointer;
+}
+
+.btn__check {
+    
+    cursor: pointer;
+}
+
+.btn__delete:hover .icon-svg {
+    fill: red;
+}
+.btn__check:hover .icon-svg {
+    fill: green;
+}

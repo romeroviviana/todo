@@ -1,0 +1,20 @@
+.btn__add {
+    background-color: #61DAFA;
+    border: none;
+    border-radius: 50px;
+    bottom: 20px;
+    box-shadow: 0px 5px 25px 0px #61DAFA80;
+    color: #FAFAFA;
+    cursor: pointer;
+    font-size: 30px;
+    height: 64px;
+    line-height: 1;
+    padding: 16px;
+    position: fixed;
+    right: 24px;
+    width: 64px;
+    transition: .5s;
+}
+.btn__add:hover {
+    transform: rotate(90deg);
+}

@@ -1,0 +1,20 @@
+.list-item {
+    align-items: center;
+    background-color: #FAFAFA;
+    box-shadow: 0px 5px 50px 0px #20232926;
+    display: grid;
+    grid-gap: 12px;
+    grid-template-columns: 48px 1fr;
+    margin: 24px 0;
+    padding: 26px 12px;
+    position: relative;
+}
+
+.item__text {
+    text-decoration: line-through;
+}
+
+.list-item__active .item__text {
+    text-decoration: none;
+}
+
