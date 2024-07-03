@@ -14,6 +14,7 @@
     right: 24px;
     width: 64px;
     transition: .5s;
+    z-index: 1;
 }
 .btn__add:hover {
     transform: rotate(90deg);
