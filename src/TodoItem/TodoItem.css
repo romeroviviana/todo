@@ -11,10 +11,10 @@
 }
 
 .item__text {
-    text-decoration: line-through;
+    text-decoration: none;
 }
 
 .list-item__active .item__text {
-    text-decoration: none;
+    text-decoration: line-through;
 }
 
